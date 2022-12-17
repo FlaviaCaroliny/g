@@ -35,9 +35,3 @@ let soma=n01+n02+n03+n04;
 let média=soma/4
 alert('A soma é ' +soma)
 alert('A média é ' +média)
-var ni1=Number(prompt('Insira um número'))
-var ni2=Number(prompt('Insira um número maior que o anterior'))
-function ni(ni1,ni2){
-    return Number(ni1,ni2) %2 !=0
-}
-alert(ni(ni1,ni2))
